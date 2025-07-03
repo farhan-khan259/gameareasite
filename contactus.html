@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-us</title>
+    <link rel="stylesheet" href="./contactus.css" />
+    <link
+      rel="shortcut icon"
+      href="./pictures/gamearealogo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbarmain">
+      <h1><img class="logo" src="./pictures/gamearealogo.png" alt="" /></h1>
+
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+        <li><a href="./contactus.html">Contact Us</a></li>
+        <li><a href="./cookiepolicy.html">Cookie Policy</a></li>
+        <li><a href="./privacypolicy.html">Privacy Policy</a></li>
+        <li><a href="./disclaimer.html">Disclaimer</a></li>
+        <li><a href="./termsandcond.html">Terms & Conditions</a></li>
+      </ul>
+    </div>
+
+    <!-- contact-us -->
+
+    <div class="contactusmain">
+      <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post" class="contact-form">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your full name"
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email address"
+            required
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Write your message here"
+            required
+          ></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- lastline -->
+    <div class="lastline">
+      <p>Copyright © 2025 <u>News 2025</u> - Powered by GameArea</p>
+      <p><b>Terms of Use Privacy Policy</b></p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
